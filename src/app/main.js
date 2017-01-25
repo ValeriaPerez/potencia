@@ -6,11 +6,12 @@ import {Logos} from './logos';
 import {Footer} from './footer';
 import ScrollReveal from 'scrollreveal';
 import {SendMessage} from './modals/send-message';
+import Scroll from 'react-scroll';
+
 
 const videos = ['output', 'output-2'];
 
 export class Main extends Component {
-
   constructor(props) {
     super(props);
 
@@ -47,6 +48,8 @@ export class Main extends Component {
     const videoMp4 = `assets/video/${videos[this.state.index]}.mp4`;
     video.src = videoMp4;
     video.play();
+
+
   }
 
   componentWillMount() {

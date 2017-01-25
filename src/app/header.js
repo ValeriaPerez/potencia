@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {SendMessage} from './modals/send-message';
 
+
 export class Header extends Component {
 
   constructor(props) {
@@ -28,7 +29,7 @@ export class Header extends Component {
 
   render() {
     return (
-      <header>
+      <header id="header">
         <div className="submenu">
           <div className="container">
             <ul>

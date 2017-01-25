@@ -1024,7 +1024,7 @@ textarea {
 }
 
 textarea {
-  height: 160px;
+  height: 171px;
 }
 
 .container {
@@ -1092,3 +1092,72 @@ textarea {
     transform: translateY(10px);
   }
 }
+
+.video {
+  background-color: #416A7C;
+  position: relative;
+
+  iframe {
+    margin-left: 29%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+  }
+  
+  .button {
+    border: 3px solid #E71E64;
+    border-radius: 2px;
+    width: 10%;
+    padding: 12px 12px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .btn-see {
+    background: none;
+    left: 45%;
+    top: 30%;
+
+    &:hover {
+      background: white;
+      color: black;
+    }
+  }
+
+  .btn-visit {
+    background: #E71E64;
+    left: 45%;
+    top: 34%;
+
+    &:hover {
+      background: white;
+      color: black;
+    }
+  }
+
+  .arrow {
+    position:absolute;
+    width: 25px;
+    height: 36px;
+    border: 2px solid rgba(255,255,255,0.27);
+    border-radius: 15px;
+    z-index: 1;
+    bottom: 620px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .scroll-inside {
+      display: block;
+      margin: 6px auto;
+      width: 3px;
+      height: 6px;
+      border-radius: 4px;
+      background: rgba(255,255,255,0.68);
+      animation-duration: 2s;
+      animation-name: mouse;
+      animation-iteration-count: infinite;
+    }
+  }
+}
+
