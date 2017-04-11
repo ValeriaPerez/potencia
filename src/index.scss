@@ -1210,3 +1210,89 @@ textarea {
 .text-center {
   text-align: center;
 }
+
+.sidebar {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  border: 10px solid #085893;
+
+  .submenu-sidebar {
+    background: #085893;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .content-logo {
+    width: 60px;
+    height: 55px;
+    font-size: 17px;
+  }
+
+  .logo-sidebar {
+    width: 50px;
+    height: 40px;
+  }
+
+  .text-description {
+    padding: 8px 20px;
+  }
+
+  .sections {
+    background-color: #D4D5D6;
+    color: #304D61;
+    padding: 15px 20px;
+  }
+
+  .footer-sidebar {
+    background-color: #085893;
+    color: #fff;
+    
+
+    &:hover {
+      color: #E71E64;
+    }
+
+    .options {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .button-back {
+      background-color: #E71E64;
+      border: 2px solid #E71E64;
+      border-radius: 2px;
+      width: auto;
+      padding: 12px 12px;
+      color: white;
+      cursor: pointer;
+      font-size: 0.9em;
+      margin: 10px 5px 0;
+    }
+  }
+}
+
+.sidebar-content {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  color: #fff;
+  
+}
+
+
+
+
+

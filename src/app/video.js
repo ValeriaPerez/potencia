@@ -3,6 +3,8 @@ import  {Header} from './header';
 import {PotenciaVideo} from './potenciaVideo';
 import {Footer} from './footer';
 import {SendMessage} from './modals/send-message';
+import {Sidebar} from './sidebar';
+import {SidebarContent} from './sidebarContent';
 
 export class Video extends Component {
   constructor(props) {
@@ -16,6 +18,7 @@ export class Video extends Component {
     return(
       <div>
         <Header />
+        <SidebarContent />
         <div className="potencia-video background">
           <div className="video-style">
             <iframe src="https://www.youtube.com/embed/FJjj59fWqzQ" width="660" height="415" frameBorder="0" allowFullScreen></iframe>            

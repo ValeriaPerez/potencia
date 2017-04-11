@@ -27,11 +27,11 @@ export class Login extends Component {
               <p>Ingresa a Potencia y conoce todos los medios<br /> para tu clase.</p>
             </div>
             <div className="field-group">
-              <input type="text" ref="name" placeholder="Escribe tu correo"  />
+              <input type="email" ref="name" placeholder="Escribe tu correo"  />
               <span className="error-msg">El correo es requerido.</span>
             </div>
             <div className="field-group">
-              <input type="email" ref="email" placeholder="Escribe tu contraseña"  />
+              <input type="password" ref="email" placeholder="Escribe tu contraseña"  />
               <span className="error-msg">La contraseña es requerida.</span>
             </div>
           </form>
